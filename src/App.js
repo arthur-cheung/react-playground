@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { routes } from './components';
+import { routes } from './core';
 
 const About = () => <section><p>This is about</p></section>
 const App = () => (

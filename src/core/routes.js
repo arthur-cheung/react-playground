@@ -1,4 +1,4 @@
-import { Home, About } from '../';
+import { Home, About } from '../components';
 
 export const routes = [
     {
@@ -6,5 +6,8 @@ export const routes = [
     },
     {
         label: 'About', key: 'about_route', path: '/about', component: About
+    },
+    {
+        label: 'Second About', key: 'second_about_route', path: '/second_about', component: About
     },
 ]
